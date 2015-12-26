@@ -17,6 +17,7 @@ cachedInverse <- NULL
        setInverse = setInverse,
        getInverse = getInverse)
 
+
 }
 
 
@@ -34,4 +35,5 @@ invFunc <- x$getInverse()
   invFunc <- solve(data, ...)
   x$setInverse(invFunc)
   invFunc
+
 }
